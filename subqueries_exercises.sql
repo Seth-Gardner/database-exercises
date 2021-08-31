@@ -40,5 +40,7 @@ where emp_no in (
 
 
 
+select * from departments
+
 
 
