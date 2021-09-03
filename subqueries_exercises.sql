@@ -36,7 +36,7 @@ select first_name, last_name
 from employees
 where emp_no in (
     select emp_no from salaries where salary = (select MAX(salary) from salaries)
-    )
+    );
 
 
 
