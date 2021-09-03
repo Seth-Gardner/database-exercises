@@ -17,5 +17,3 @@ select * from employees where day(birth_date) like '25'
 select datediff(curdate(), hire_date) from employees where day(birth_date) like '25'
                                                            and month(birth_date) like '12'
                                                            and year(hire_date) between 1990 and 1999
-
--- hi
